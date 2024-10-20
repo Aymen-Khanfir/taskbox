@@ -29,6 +29,7 @@ export default function Task({task: {id, title, state}, onArchiveTask, onPinTask
                     name="title"
                     id={`title-${id}`}
                     placeholder="Input title"
+                    style={{ backgroundColor: 'red' }}
                 />
             </label>
             {state !== "TASK_ARCHIVED" && (
