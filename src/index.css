@@ -429,6 +429,7 @@ textarea {
 .page.lists-show {
   min-height: 100vh;
   background: white;
+  color: blue;
 }
 
 .page.lists-show nav {
